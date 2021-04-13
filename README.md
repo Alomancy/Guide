@@ -21,12 +21,13 @@ If you find any issues, please reach out to me on my discord server listed below
 
 If you would like to practice head to one of the following:
 
-* tryhackme: [https://tryhackme.com](https://tryhackme.com/room/bufferoverflowprep)
-* hackthebox: [https://hackthebox.com](https://hackthebox.com)
-* burp-suite academy: [https://portswigger.net/web-security](https://portswigger.net/web-security)
-* overthewire: [https://overthewire.org/wargames/](https://overthewire.org/wargames/)
-* underthewire: [https://underthewire.tech/](https://underthewire.tech/)
+* Tryhackme: [https://tryhackme.com](https://tryhackme.com/room/bufferoverflowprep)
+* Hackthebox: [https://hackthebox.com](https://hackthebox.com)
+* Burp-suite academy: [https://portswigger.net/web-security](https://portswigger.net/web-security)
+* Overthewire: [https://overthewire.org/wargames/](https://overthewire.org/wargames/)
+* Underthewire: [https://underthewire.tech/](https://underthewire.tech/)
 * AWS: [http://flaws.cloud/](http://flaws.cloud/)
+* Reverse Engineering: [https://github.com/swisskyrepo/PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings)
 
 ## Video Learning
 
@@ -50,8 +51,4 @@ Cybrary.it: [https://cybrary.it](https://cybrary.it)
 * Windows Priv Esc: [https://www.fuzzysecurity.com/tutorials/16.html](https://www.fuzzysecurity.com/tutorials/16.html)
 * Example Hashes: [https://hashcat.net/wiki/doku.php?id=example\_hashes](https://hashcat.net/wiki/doku.php?id=example_hashes)
 * Coding: [https://replit.com](https://replit.com/~)
-
-
-
-
 
