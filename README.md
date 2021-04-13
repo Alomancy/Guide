@@ -40,6 +40,7 @@ Cybrary.it: [https://cybrary.it](https://cybrary.it)
 ## Resources
 
 * Hack Tricks: [https://book.hacktricks.xyz/](https://book.hacktricks.xyz/) 
+* Cheat Sheets: [https://github.com/swisskyrepo/PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings)
 * Hack Tools Extension: [https://addons.mozilla.org/en-GB/firefox/addon/hacktools/](https://addons.mozilla.org/en-GB/firefox/addon/hacktools/)
 * Reverse Shells: [http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet](http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet)
 * Vulnerable Unix Binaries: [https://gtfobins.github.io/](https://gtfobins.github.io/)
