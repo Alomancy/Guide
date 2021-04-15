@@ -4,6 +4,7 @@
 
 ## Guides
 
+* [SQLi Walkthrough](guides/sqli-walkthrough.md)
 * [My First BoF](guides/my-first-bof.md)
 * [OSCP  Buffer Overflow Guide \(Windows\)](guides/bof.md)
 * [Video Guides](guides/video-guides.md)
@@ -58,5 +59,4 @@
 ---
 
 * [Things to do/look at](things-to-do-look-at.md)
-* [SQLi Walkthrough](sqli-walkthrough.md)
 
