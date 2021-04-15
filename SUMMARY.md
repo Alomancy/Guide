@@ -58,4 +58,5 @@
 ---
 
 * [Things to do/look at](things-to-do-look-at.md)
+* [SQLi Walkthrough](sqli-walkthrough.md)
 
