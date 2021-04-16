@@ -4,6 +4,10 @@ description: A walkthrough of one of the Burp Academy Labs
 
 # SQLi Walkthrough
 
+{% hint style="info" %}
+One thing to note that is not explained here is the process to identify which DBMS is being used, MSSQL, MySQL, Oracle etc... This is usually carried out first when finding out the injection point by using different comments and verbose error messages, nmap scans.
+{% endhint %}
+
 ## SQL UNION SELECT
 
 When we enter the room are presented with a web page:
