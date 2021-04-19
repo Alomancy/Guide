@@ -2,6 +2,10 @@
 
 * [Introduction](README.md)
 
+## Beginners
+
+* [Getting Started](beginners/getting-started.md)
+
 ## Guides
 
 * [SQLi Walkthrough](guides/sqli-walkthrough.md)
