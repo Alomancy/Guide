@@ -25,7 +25,9 @@ Another great place to find help and information is on twitch/youtube. The List 
 
 * [https://infosecstreams.github.io/](https://infosecstreams.github.io/)
 
+## Cert Path
 
+PEH -&gt; {eCPPT -&gt; OSCP} -&gt; {CRTP -&gt; CRTO -&gt; eCPTX}
 
 
 
