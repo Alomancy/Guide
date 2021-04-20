@@ -27,7 +27,7 @@ Another great place to find help and information is on twitch/youtube. The List 
 
 ## Cert Path
 
-PEH -&gt; {eCPPT -&gt; OSCP} -&gt; {CRTP -&gt; CRTO -&gt; eCPTX}
+Sec+ &gt; PT+ PEH -&gt; {eCPPT -&gt; OSCP} -&gt; {CRTP -&gt; CRTO -&gt; eCPTX}
 
 
 
