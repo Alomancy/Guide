@@ -48,7 +48,7 @@
 
 ## Methodologies
 
-* [OWASP Identifiers](methodologies/owasp-identifiers.md)
+* [OWASP v4 Checklist](methodologies/owasp-identifiers.md)
 * [External Inf](methodologies/external-inf.md)
 * [Internal Infrastructure](methodologies/internal-infrastructure.md)
 
