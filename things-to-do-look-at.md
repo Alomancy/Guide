@@ -6,3 +6,9 @@
 
 
 
+Stabalise shell
+
+/usr/bin/script -qc /bin/bash /dev/null
+
+
+
