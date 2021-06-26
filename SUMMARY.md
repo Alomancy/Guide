@@ -45,6 +45,7 @@
   * [Time](cheat-sheets/bash-cheat-sheets/time.md)
   * [Condition and Loop](cheat-sheets/bash-cheat-sheets/condition-and-loop.md)
   * [Other](cheat-sheets/bash-cheat-sheets/other.md)
+* [OSINT](cheat-sheets/osint.md)
 
 ## Methodologies
 
