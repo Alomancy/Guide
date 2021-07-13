@@ -11,6 +11,8 @@
 * [SQLi Walkthrough](guides/sqli-walkthrough.md)
 * [My First BoF](guides/my-first-bof.md)
 * [OSCP  Buffer Overflow Guide \(Windows\)](guides/bof.md)
+* [Parrot OS customisation](guides/parrot-os-customisation.md)
+* [Terminal Customisation](guides/terminal-customisation.md)
 * [Video Guides](guides/video-guides.md)
 
 ## Cheat Sheets
