@@ -51,6 +51,7 @@
 
 ## Methodologies
 
+* [VOIP Checklist](methodologies/voip-checklist.md)
 * [OWASP v4 Checklist](methodologies/owasp-identifiers.md)
 * [External Inf](methodologies/external-inf.md)
 * [Internal Infrastructure](methodologies/internal-infrastructure.md)
