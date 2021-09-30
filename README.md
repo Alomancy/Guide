@@ -28,6 +28,7 @@ If you would like to practice head to one of the following:
 * Underthewire: [https://underthewire.tech/](https://underthewire.tech/)
 * AWS: [http://flaws.cloud/](http://flaws.cloud/)
 * Reverse Engineering: [https://github.com/swisskyrepo/PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings)
+* Traffic Analysis: [https://malware-traffic-analysis.net/](https://malware-traffic-analysis.net/)
 
 ## Video Learning
 
